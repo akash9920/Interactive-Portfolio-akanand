@@ -1,6 +1,62 @@
 Notes_CommonThings to Notice:
 
+in ancadote , react isnt seems to be a framework, it just a lib which
+simplifies the frontEnd
+
+ANgular uses modern programming tech such as 
+
+1) OOPS
+2)Strong Typing
+3)Generics
+4)Inversion of Control
+5)Lambdas
+6) Decorators
+7)design patterns 
+
+Type Script transpile the code to JS so that the browser can understand the language
+
+1) Angular seprates logic and htm/css render seprately
+its very object oriented
+
+2) there are 4 files. ts , html, css, spec(for testing : its optional)
+3) anything available in the ts will be available to html file
+
+@components
+
+selector key : the html tags are created using selector key 
+ex: <app-xyz>
+
+COMPONENTS:
+
+components are the builidng blocks of the angular,there are 4 files. ts , html, css, spec(for testing : its optional)
+all the logic goes into a java class file  which is ts
+When we create a project we app-root component is automatically created
+
+app module component is an administration configuration bootstrap object 
+
+to create  a new component use the commands
+
+ng g c {name of component}
 
 
-Mistakes_I_Did____!!
+the newly cretaed component can/ should be used in the html file of app-root component
+
+
+------------important commands--------------
+#syntax
+
+1) install angular cli, npm
+
+npm install -g@angular/cli
+
+to create  a new project Type
+
+ng new (NameOfProject)
+
+2) to create a new component use: ng g c (name of component)
+           // this automatically add the component to the app.module file
+
+3) {{ variable declared in ts file}}  -->>> this is the way to use variable declared in ts in html file
+
+4) angular has attirbutes, like ngFor which allow you to iterate 
 

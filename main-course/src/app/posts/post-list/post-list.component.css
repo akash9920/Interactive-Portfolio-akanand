@@ -1,0 +1,18 @@
+:host {
+  display: block;
+  margin-top: 1rem;
+}
+
+.info-text {
+  text-align: center;
+}
+
+/* main {
+  width: 80%;
+}
+at-expansion-panel,main {
+  width: 80%;
+}
+mat-action-row {
+  width: 80%;
+} */

@@ -7,11 +7,10 @@ import {MatCardModule} from '@angular/material/card';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { MatToolbarModule, MatButtonModule, MatIconModule, MatListModule } from '@angular/material';
 import { LayoutModule } from '@angular/cdk/layout';
+
 //components
 import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
-import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
-import { MenuSideNavComponent } from './menu-side-nav/menu-side-nav.component';
 
 
 
@@ -19,8 +18,7 @@ import { MenuSideNavComponent } from './menu-side-nav/menu-side-nav.component';
   declarations: [
     AppComponent,
     TestComponent,
-    NavigationBarComponent,
-    MenuSideNavComponent
+
   ],
   imports: [
     BrowserModule,

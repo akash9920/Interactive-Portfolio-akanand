@@ -1,0 +1,4 @@
+clone the project using git clone and install the following
+
+1) npm install -g @angular/cli
+2) npm install --save @angular/material @angular/cdk @angular/animations
